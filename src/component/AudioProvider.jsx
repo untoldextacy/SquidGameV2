@@ -42,7 +42,7 @@ export const AudioProvider = ({ children }) => {
 
 export const useAudio = () => {
     const context = useContext(AudioContext);
-    if (!context) {
+    if (!context || Object.keys(context).length === 0) {
         console.warn("useAudio must be used within an AudioProvider");
         return { isPlaying: false, togglePlay: () => {} }; // Safe defaults
     }
