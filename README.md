@@ -1,5 +1,10 @@
 # Squid Game Mini-Games
 
+## Playable Demo
+
+[Squid Game Mini Games Live Demo](https://squidgamev2.onrender.com/)
+
+
 This is a **React-based mini-game project** inspired by *Squid Game*. It features multiple games, background music, and a dynamic UI using **Tailwind CSS** and **Framer Motion**.
 
 ## 🚀 Features
